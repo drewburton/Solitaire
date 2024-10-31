@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+            
         let solitaireView = SolitaireGameView(frame: self.view.bounds)
         self.view.addSubview(solitaireView)
     }

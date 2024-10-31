@@ -26,6 +26,9 @@
 			exceptions = (
 				71666DE32CD1681D004DE13D /* Exceptions for "Solitaire" folder in "Solitaire" target */,
 			);
+			explicitFolders = (
+				images,
+			);
 			path = Solitaire;
 			sourceTree = "<group>";
 		};

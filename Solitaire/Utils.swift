@@ -7,6 +7,8 @@
 
 import UIKit
 
+let scaleFactor = UIScreen.main.bounds.height / 667.0
+
 extension UIColor {
     convenience init(hex: Int, alpha: CGFloat = 1.0) {
         self.init(
@@ -15,4 +17,8 @@ extension UIColor {
             blue: CGFloat(hex & 0x0000FF) / 255.0,
             alpha: alpha )
     }
+}
+
+func scaled(value: CGFloat) -> CGFloat {
+    return  value * scaleFactor
 }
